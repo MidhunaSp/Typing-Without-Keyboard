@@ -57,6 +57,15 @@ TYPING-WITHOUT-KEYBOARD
 
 ---
 
+## 📥 Clone the Repository
+
+```bash
+git clone https://github.com/MidhunaSp/Typing-Without-Keyboard.git
+cd Typing-Without-Keyboard/project
+```
+
+---
+
 ## ⚙️ Setup & Run
 
 ```bash
@@ -95,10 +104,19 @@ Open: `http://localhost:5173`
 
 ---
 
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this software with proper attribution.
+
+---
+
 ## 👩‍💻 Author
 
 **Midhuna Varshini S P**
 
 ---
+
 
 ✨ *Type without touching a keyboard!* ✨

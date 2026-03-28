@@ -67,7 +67,6 @@ Special Keys: Simply hover your finger over the SPACE or BACKSPACE buttons for t
 Export: Once finished, click Export Text to download your session as a text file.
 
 ## 📂 Project Structure
-Plaintext
 TYPING-WITHOUT-KEYBOARD
 └── project/
     ├── .bolt/                  # Configuration for the Bolt development environment
@@ -122,8 +121,8 @@ This project is open-source and available under the MIT License.
 
 ## 👩‍💻 Author
 
-**Midhuna Varshini S P**
+## ** Midhuna Varshini S P **
 
 ---
 
-✨ *Control your system with just a wave of your hand!* ✨
+✨ Type without touching a keyboard! ✨

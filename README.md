@@ -98,7 +98,7 @@ TYPING-WITHOUT-KEYBOARD
     ├── tsconfig.json           # Root TypeScript configuration
     ├── tsconfig.node.json      # TS config for Node-based tools
     └── vite.config.ts          # Vite build and server configuration
-
+    
 ## 📖 How to Use
 Grant Camera Access: Allow the browser to use your webcam.
 

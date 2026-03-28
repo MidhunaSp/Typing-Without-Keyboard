@@ -97,6 +97,36 @@ TYPING-WITHOUT-KEYBOARD
     ├── tsconfig.app.json       # TS config for the frontend app
     ├── tsconfig.json           # Root TypeScript configuration
     ├── tsconfig.node.json      # TS config for Node-based tools
+    └── vite.config.ts          # Vite build and server configurationTYPING-WITHOUT-KEYBOARD
+└── project/
+    ├── .bolt/                  # Configuration for the Bolt development environment
+    ├── node_modules/           # Project dependencies
+    ├── src/                    # Main source code
+    │   ├── components/         # Modular UI Components
+    │   │   ├── SessionControls.tsx # Logic for Save, Export, and Clear buttons
+    │   │   ├── SettingsPanel.tsx   # Sliders for sensitivity and hover delay
+    │   │   ├── TextDisplay.tsx     # Area showing typed text, word, and character counts
+    │   │   ├── VirtualKeyboard.tsx # The visual QWERTY layout and key interaction
+    │   │   └── WebcamFeed.tsx      # Video canvas with real-time hand landmark overlays
+    │   ├── hooks/              # Custom React hooks (e.g., useGestures, useSupabase)
+    │   ├── utils/              # Calculation logic (pinch detection, coordinate mapping)
+    │   ├── App.tsx             # Main layout and state coordination
+    │   ├── index.css           # Global styles and Tailwind CSS imports
+    │   ├── main.tsx            # Application entry point
+    │   └── vite-env.d.ts       # TypeScript definitions for Vite
+    ├── supabase/               # Backend configuration
+    │   └── migrations/         # SQL scripts for database schema (e.g., sessions table)
+    ├── .env                    # Environment variables (Supabase URL/Keys)
+    ├── .gitignore              # Files to ignore in Git
+    ├── eslint.config.js        # Linting configuration
+    ├── index.html              # Main HTML template
+    ├── package-lock.json       # Version lock for dependencies
+    ├── package.json            # Scripts and dependency list
+    ├── postcss.config.js       # PostCSS configuration
+    ├── tailwind.config.js      # Tailwind CSS theme settings
+    ├── tsconfig.app.json       # TS config for the frontend app
+    ├── tsconfig.json           # Root TypeScript configuration
+    ├── tsconfig.node.json      # TS config for Node-based tools
     └── vite.config.ts          # Vite build and server configuration
     
 ## 📖 How to Use
